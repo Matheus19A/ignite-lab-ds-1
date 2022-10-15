@@ -23,6 +23,6 @@ module.exports = {
       config.base = 'ignite-lab-ds-1'
     }
 
-    return config
+    return config;
   }
 }

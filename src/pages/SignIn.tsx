@@ -4,7 +4,7 @@ import { FormEvent } from "react";
 import { Button } from "../components/Button";
 import { Heading } from "../components/Heading";
 import { TextInput } from "../components/TextInput";
-import { text } from "../components/Text";
+import { Text } from "../components/Text";
 import { Logo } from "../Logo";
 
 export function SignIn(){
@@ -22,7 +22,7 @@ export function SignIn(){
             Ignite Lab
           </Heading>
   
-          <Text size="lg" className="text-gray-400 mt-1">
+          <Text size="lg" className="text-gray-500 mt-1">
             Faça login e comece a usar!
           </Text>
         </header>
@@ -60,10 +60,10 @@ export function SignIn(){
   
         <footer className="flex flex-col items-center gap-4 mt-8">
           <Text asChild size="sm">
-            <a href="" className="text-gray-400 underline hover:text-gray-200">Esqueceu sua senha?</a>
+            <a href="" className="text-gray-500 underline hover:text-gray-200">Esqueceu sua senha?</a>
           </Text>
           <Text asChild size="sm">
-            <a href="" className="text-gray-400 underline hover:text-gray-200">Não possui conta? Crie uma agora!</a>
+            <a href="" className="text-gray-500 underline hover:text-gray-200">Não possui conta? Crie uma agora!</a>
           </Text>
         </footer>
       </div>
